@@ -1,0 +1,15 @@
+.star {
+  font-size: 1.2rem;
+  color: #d1d5db; /* light gray for empty stars */
+  margin-right: 2px;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #fbbf24; /* golden */
+}
+
+.star:hover {
+  color: #facc15; /* bright golden on hover */
+}
+
